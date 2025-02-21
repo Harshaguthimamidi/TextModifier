@@ -1,0 +1,108 @@
+.main,
+.logo {
+  background-color: black;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: monospace;
+  text-decoration: none;
+  color: azure;
+}
+
+#logo {
+  background-color: azure;
+  color: black;
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+}
+#element:hover {
+  border-radius: 2px;
+  background-color: azure;
+  color: black;
+}
+.text,
+h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+  font-family: monospace;
+}
+
+textarea {
+  width: 1584px;
+  height: 345px;
+  font-size: x-large;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btns,
+.count {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: block;  
+  top: 55px;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 83.5%;  
+  max-width: 100%;  
+  padding: 10px;
+  word-wrap: break-word;  
+  overflow-wrap: break-word;  
+  margin: 0 auto;  
+}
+
+.btn {
+  color: white;
+  background-color: rgb(49, 49, 255);
+  border-radius: 5px;
+  font-family: monospace;
+  cursor: pointer;
+  padding: 12px 79px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.output {
+  position: relative;
+  display: block; 
+  top: 40px;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 83.5%;
+  max-width: 100%;
+  padding: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin: 0 auto;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.heading {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 55px;
+  font-size: xx-large;
+  font-family: monospace;
+  font-weight: bold;
+}
