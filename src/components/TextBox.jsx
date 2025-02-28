@@ -6,7 +6,7 @@ function TextBox(props) {
     const changed = Text.toUpperCase();
     setText(changed);
   };
-
+  
   const toLower = () => {
     setText(Text.toLowerCase());
   };
