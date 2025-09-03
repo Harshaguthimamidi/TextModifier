@@ -6,7 +6,7 @@ function TextBox(props) {
     const changed = Text.toUpperCase();
     setText(changed);
   };
-
+  
   const toLower = () => {
     setText(Text.toLowerCase());
   };
@@ -37,7 +37,7 @@ function TextBox(props) {
           id="text"
           cols="100"
           rows="10"
-          placeholder="Enter text here"
+          placeholder="Enter Your Text Here"
         ></textarea>
       </div>
 
